@@ -9,7 +9,7 @@ countLetters = (input) => {
         characterCount++;
       }
     }
-    returnObject[characterToCheck] = [characterCount];
+    returnObject[characterToCheck] = characterCount;
   }
 
   return returnObject;
